@@ -1,6 +1,8 @@
 import lunr from 'lunr';
-import { map, pipe as _, take } from 'ramda';
+import * as R from 'ramda'
 import clinicalDiagnosis from '../clinical-diagnosis.json';
+
+const {pipe: _, take, map} = R
 
 export const index = lunr(function () {
 	this.field('VALUE');
