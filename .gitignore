@@ -4,4 +4,3 @@ node_modules
 /build
 /functions
 clinical-diagnosis.json
-.svelte-kit/
