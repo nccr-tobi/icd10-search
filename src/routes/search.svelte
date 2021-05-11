@@ -44,7 +44,7 @@
 		{#each results.data as result}
 			<li>
 				<code
-					><a href={`https://www.aapc.com/codes/icd-10-codes/${result?.CONCEPT_CODE}`}
+					><a target="_blank" href={`https://www.aapc.com/codes/icd-10-codes/${result?.CONCEPT_CODE}`}
 						>{result?.CONCEPT_CODE}</a
 					></code
 				>: {result?.VALUE}
